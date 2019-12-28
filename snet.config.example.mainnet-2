@@ -1,6 +1,5 @@
 {
-   "DAEMON_END_POINT": "0.0.0.0:8004",
-   "ETHEREUM_JSON_RPC_ENDPOINT": "https://ropsten.infura.io",
+   "DAEMON_END_POINT": "0.0.0.0:8003",
    "IPFS_END_POINT": "http://ipfs.singularitynet.io:80",
    "PASSTHROUGH_ENABLED": true,
    "PASSTHROUGH_ENDPOINT": "http://localhost:50051",
@@ -11,8 +10,12 @@
    "payent_channel_cert_path": "/ssl/client.pem",
    "payent_channel_ca_path": "/ssl/ca.pem",
    "payent_channel_key_path": "/ssl/client-key.pem",
-   "metering_end_point": "https://ropsten-marketplace.singularitynet.io/metering",
-   "pvt_key_for_metering":"Provided to you already",
+   "free_call_signer_address":"0x3Bb9b2499c283cec176e7C707Ecb495B7a961ebf",
+   "blockchain_network_selected": "main",
+   "metering_end_point": "https://mainnet-marketplace.singularitynet.io/metering",
+   "pvt_key_for_metering":    "ec37525f61b0422d5895ea5a67601bc9c154e9e697cab4c094337476a22c9328",
+   "burst_size": 1,
+   "rate_limit_per_minute": 2,
    "LOG": {
        "LEVEL": "debug",
        "OUTPUT": {
